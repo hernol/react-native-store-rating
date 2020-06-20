@@ -14,11 +14,13 @@ export interface IProps {
     onStarSelected: (e: number) => void;
     onClosed: () => void;
     sendContactUsForm: (state: IState) => void;
+    onSendReview: (state: IState) => Promise<any>;
     playStoreUrl?: string;
     iTunesStoreUrl?: string;
     style: ViewStyle;
     starLabels: string[];
     isTransparent: boolean;
+    shouldShowContactForm: boolean;
 }
 export interface IState {
     rating: number;
