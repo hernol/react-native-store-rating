@@ -1,5 +1,5 @@
 {
-	"name": "react-native-store-rating",
+	"name": "react-native-store-rating-fork",
 	"version": "1.0.1",
 	"description": "React Native store rating like Airbnb",
 	"scripts": {
@@ -10,12 +10,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pankod/react-native-store-rating"
+		"url": "https://github.com/hernol/react-native-store-rating"
 	},
 	"bugs": {
-		"url": "https://github.com/pankod/react-native-store-rating/issues"
+		"url": "https://github.com/hernol/react-native-store-rating/issues"
 	},
-	"homepage": "https://github.com/pankod/react-native-store-rating",
+	"homepage": "https://github.com/hernol/react-native-store-rating",
 	"files": [
 		"dist"
 	],
@@ -38,6 +38,10 @@
 		{
 			"name": "necatiozmen",
 			"email": "necati.ozmen.9@gmail.com"
+    },
+    {
+			"name": "hernol",
+			"email": "hernol@gmail.com"
 		}
 	],
 	"license": "MIT",
