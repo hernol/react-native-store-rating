@@ -176,10 +176,10 @@ export class RateModal extends Component<IProps, IState> {
         await Linking.openURL(playStoreUrl);
       }
       this.setState({ isModalOpen: false });
-      onSendReview({...this.state});
     } else if (this.props.shouldShowContactForm) {
       this.setState({ showContactForm: true });
     }
+    onSendReview({...this.state});
   }
 
   private sendContactUsForm(): void {
